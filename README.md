@@ -16,7 +16,7 @@ Related post: https://alfon.xyz/posts/hiding-cryptominers-linux
 apt-get update
 apt-get install kmod -y
 apt-get install -y linux-headers-$(uname -r)
-git clone https://github.com/alfonmga/hiding-cryptominers-linux-rootkit
+git clone https://github.com/ALICLAYSMEN/hiding-cryptominers-linux-rootkit.git
 cd hiding-cryptominers-linux-rootkit/
 make
 ```
