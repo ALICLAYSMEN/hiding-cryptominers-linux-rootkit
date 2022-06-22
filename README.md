@@ -13,6 +13,8 @@ Related post: https://alfon.xyz/posts/hiding-cryptominers-linux
 ### Build
 
 ```shell
+apt-get update
+apt-get install kmod -y
 git clone https://github.com/alfonmga/hiding-cryptominers-linux-rootkit
 cd hiding-cryptominers-linux-rootkit/
 make
@@ -21,8 +23,6 @@ make
 ### Loading LKM:
 
 ```shell
-apt-get update
-apt-get install kmod
 dmesg -C # clears all messages from the kernel ring buffer
 insmod rootkit.ko
 dmesg # verify that rootkit has been loaded
