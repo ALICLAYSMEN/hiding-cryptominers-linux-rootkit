@@ -21,9 +21,11 @@ $ make
 ### Loading LKM:
 
 ```shell
-$ dmesg -C # clears all messages from the kernel ring buffer
-$ insmod rootkit.ko
-$ dmesg # verify that rootkit has been loaded
+apt-get update
+apt-get install kmod
+dmesg -C # clears all messages from the kernel ring buffer
+insmod rootkit.ko
+dmesg # verify that rootkit has been loaded
 ```
 
 ### Unloading LKM:
