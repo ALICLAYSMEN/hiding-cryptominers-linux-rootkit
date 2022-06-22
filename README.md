@@ -13,9 +13,9 @@ Related post: https://alfon.xyz/posts/hiding-cryptominers-linux
 ### Build
 
 ```shell
-$ git clone https://github.com/alfonmga/hiding-cryptominers-linux-rootkit
-$ cd hiding-cryptominers-linux-rootkit/
-$ make
+git clone https://github.com/alfonmga/hiding-cryptominers-linux-rootkit
+cd hiding-cryptominers-linux-rootkit/
+make
 ```
 
 ### Loading LKM:
