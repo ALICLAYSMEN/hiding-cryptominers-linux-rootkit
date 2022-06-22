@@ -1,4 +1,5 @@
-CONFIG_MODULE_SIG=n
+CONFIG_MODULE_SIG_ALL=y
+
 
 KDIR ?= /lib/modules/$(shell uname -r)/build
 all:
